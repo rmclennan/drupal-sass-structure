@@ -7,12 +7,12 @@
 ##
 
 # Change this to :production when ready to deploy the CSS to the live server.
-environment = :development
-#environment = :production
+#environment = :development
+environment = :production
 
 # In development, we can turn on the FireSass-compatible debug info.
-#firesass = false
-firesass = true
+firesass = false
+#firesass = true
 
 # Set this to the root of your project when deployed:
 http_path = "../"
@@ -36,7 +36,7 @@ output_style = (environment == :development) ? :expanded : :compressed
 relative_assets = true
 
 # Disable line comments if firesass plugin is enabled.
-line_comments = (environment == :development && firesass == true) ? false : true;
+line_comments = (environment == :development) ? (firesass == true) ? false : true : false;
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:

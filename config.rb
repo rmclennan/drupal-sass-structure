@@ -27,6 +27,9 @@ javascripts_dir = "js"
 ## You probably don't need to edit anything below this.
 ##
 
+# Remove query sting from image url when use image-url().
+asset_cache_buster :none
+
 # You can select your preferred output style here (can be overridden via the
 # command line):
 # output_style = :expanded or :nested or :compact or :compressed

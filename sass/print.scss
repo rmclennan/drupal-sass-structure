@@ -1,5 +1,5 @@
 /**
- * Styles.
+ * Print styles.
  */
 
 // This file will be compiled into "styles.css" in css folder.
@@ -7,15 +7,3 @@
 // Import base file so Compass mixins and custom settings are available
 // during compiling.
 @import "base";
-
-// Import basic styles for elements.
-@import "basic/all";
-
-// Modules.
-@import "modules/all";
-
-// Partials.
-@import "partials/all";
-
-// Layout.
-@import "layout/all";
